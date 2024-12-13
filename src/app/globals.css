@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 100% 98%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+ 
+    --primary: 0 72.2% 50.6%;
+    --primary-foreground: 0 85.7% 97.3%;
+ 
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+ 
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+ 
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 72.2% 50.6%;
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 120 50% 5%;
+    --foreground: 120 10% 98%;
+ 
+    --card: 120 50% 3%;
+    --card-foreground: 120 10% 98%;
+ 
+    --popover: 120 50% 3%;
+    --popover-foreground: 120 10% 98%;
+ 
+    --primary: 120 100% 40%;
+    --primary-foreground: 120 10% 98%;
+ 
+    --secondary: 120 30% 10%;
+    --secondary-foreground: 120 10% 98%;
+ 
+    --muted: 120 30% 15%;
+    --muted-foreground: 120 5% 64.9%;
+ 
+    --accent: 120 30% 15%;
+    --accent-foreground: 120 10% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 120 10% 98%;
+ 
+    --border: 120 30% 25%;
+    --input: 120 30% 25%;
+    --ring: 120 100% 40%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Snowfall Animation */
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+  }
+  100% {
+    transform: translateY(110vh) translateX(20vw);
+  }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10vh;
+  color: white;
+  font-size: 1em;
+  opacity: 0.8;
+  z-index: 9999;
+  user-select: none;
+  cursor: default;
+  animation: snowfall 5s linear infinite;
+}
+
+.snowflake:nth-child(2n) {
+  animation-duration: 6s;
+}
+
+.snowflake:nth-child(3n) {
+  animation-duration: 7s;
+}
+
+.snowflake:nth-child(4n) {
+  animation-duration: 8s;
+}
+
+.snowflake:nth-child(5n) {
+  animation-duration: 9s;
+}
+
