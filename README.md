@@ -20,6 +20,12 @@ A festive web app designed to bring the spirit of Christmas to life with feature
 - **AI Integration**: Powered by custom AI models for generating stories, recipes, and gift suggestions.
 - **Font: Inter**: A clean and modern font for a polished user experience.
 
+## Screenshots
+
+Here’s a preview of the **Fesivy AI** web app:
+
+![App Screenshot](Screenshot 2024-12-13 160510.png)
+
 ## Getting Started
 
 To run this project locally, follow these steps:
