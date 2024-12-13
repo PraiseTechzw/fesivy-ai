@@ -1,29 +1,64 @@
-# Create T3 App
+# Fesivy AI
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A festive web app designed to bring the spirit of Christmas to life with features like snow effects, gift recommendations, budget planning, and interactive story generation. Celebrate the holiday season in style with personalized recommendations and festive surprises!
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- **Snowfall Effect**: Experience a beautiful snowfall animation to set the Christmas mood.
+- **Gift Recommendations**: Get AI-powered suggestions for perfect Christmas gifts for friends and family.
+- **Story Generator**: Let the app create festive stories for you to share during the holidays.
+- **Recipe Generator**: Discover new holiday recipes with AI-powered recommendations.
+- **Budget Planner**: Plan your Christmas expenses with ease using the budget planner tool.
+- **Wishlist Builder**: Create and share your Christmas wishlist.
+- **Countdown Timer**: Keep track of the days left until Christmas!
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Technologies Used
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- **Next.js 13**: A React framework for building the app with great performance and scalability.
+- **Tailwind CSS**: For styling the app with a modern and responsive design.
+- **TypeScript**: For a type-safe and maintainable codebase.
+- **AI Integration**: Powered by custom AI models for generating stories, recipes, and gift suggestions.
+- **Font: Inter**: A clean and modern font for a polished user experience.
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+To run this project locally, follow these steps:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### 1. Clone the repository
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+```bash
+git clone https://github.com/PraiseTechzw/fesivy-ai.git
+cd fesivy-ai
+2. Install dependencies
+Ensure that you have Node.js installed, then install the necessary dependencies using npm or yarn.
 
-## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+npm install
+3. Run the development server
+Once the dependencies are installed, you can start the local development server:
+
+npm run dev
+This will start the app at http://localhost:3000.
+
+4. Open the app in your browser
+Navigate to http://localhost:3000 in your web browser to see the app in action.
+
+Deployment
+This app is ready to be deployed to any platform that supports Next.js, such as:
+
+Vercel
+Netlify
+GitHub Pages
+Follow the deployment instructions on your chosen platform to get the app live.
+
+Contributing
+If you'd like to contribute to Fesivy AI, feel free to fork the repository and submit pull requests! We welcome improvements, bug fixes, and new feature suggestions.
+
+To contribute:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them.
+Open a pull request with a clear description of the changes.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
