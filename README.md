@@ -24,7 +24,7 @@ A festive web app designed to bring the spirit of Christmas to life with feature
 
 Here’s a preview of the **Fesivy AI** web app:
 
-![App Screenshot](Screenshot 2024-12-13 160510.png)
+![App Screenshot](public/Screenshot%202024-12-13%20160510.png)
 
 ## Getting Started
 
