@@ -26,45 +26,55 @@ Here’s a preview of the **Fesivy AI** web app:
 
 ![App Screenshot](public/Screenshot%202024-12-13%20160510.png)
 
-## Getting Started
+## Installation
 
-To run this project locally, follow these steps:
+1. **Clone the Repository**
 
-### 1. Clone the repository
+    ```bash
+    git clone https://github.com/PraiseTechzw/fesivy-ai.git
+    cd fesivy-ai
+    ```
 
-```bash
-git clone https://github.com/PraiseTechzw/fesivy-ai.git
-cd fesivy-ai
-2. Install dependencies
-Ensure that you have Node.js installed, then install the necessary dependencies using npm or yarn.
+2. **Install Dependencies**
 
+    ```bash
+    npm install
+    ```
 
-npm install
-3. Run the development server
-Once the dependencies are installed, you can start the local development server:
+3. **Environment Variables**
 
-npm run dev
-This will start the app at http://localhost:3000.
+    Create a `.env` file in the root directory and add your configuration details:
 
-4. Open the app in your browser
-Navigate to http://localhost:3000 in your web browser to see the app in action.
+    ```plaintext
+    PORT=3000
+    MONGODB_URI=<your-mongodb-connection-string>
+    ```
 
-Deployment
-This app is ready to be deployed to any platform that supports Next.js, such as:
+4. **Start the Server**
 
-Vercel
-Netlify
-GitHub Pages
-Follow the deployment instructions on your chosen platform to get the app live.
+    ```bash
+    npm rub dev
+    ```
 
-Contributing
-If you'd like to contribute to Fesivy AI, feel free to fork the repository and submit pull requests! We welcome improvements, bug fixes, and new feature suggestions.
+    Your server should be running at `http://localhost:3000`.
 
-To contribute:
+## Usage
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Open a pull request with a clear description of the changes.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **Base URL**: `http://localhost:3000.`
+
+You can use use your everyday browser to interact with the application.
+
+## Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository.
+2. Create a new branch with your feature or fix.
+3. Commit your changes.
+4. Open a pull request.
+
+Please refer to [CONTRIBUTING](Contributing) for more details on our contribution guidelines.
+
+## License
+
+This project is licensed under the MIT License. See the MIT Lisense for details.
